@@ -3,6 +3,7 @@ body {
     background-color: #f5f3ec;
     color: #222222;
     margin: 40px;
+    text-align: center;
 }
 
 h1 {
@@ -13,12 +14,34 @@ h2 {
     color: #7a4b20;
 }
 
-img {
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.book {
+    text-align: center;
+}
+
+.book img {
+    width: 160px;
+    height: 240px;
+    object-fit: contain;
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.book p {
+    font-size: 18px;
+    margin-top: 12px;
 }
 
 a {
     color: #1a5fb4;
+    text-decoration: none;
 }
 
 a:hover {
