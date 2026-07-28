@@ -1,0 +1,26 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    background-color: #f5f3ec;
+    color: #222222;
+    margin: 40px;
+}
+
+h1 {
+    color: #5a2d0c;
+}
+
+h2 {
+    color: #7a4b20;
+}
+
+img {
+    border-radius: 8px;
+}
+
+a {
+    color: #1a5fb4;
+}
+
+a:hover {
+    color: #c05000;
+}
